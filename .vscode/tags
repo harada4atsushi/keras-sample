@@ -1,0 +1,88 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Activation	../imdb_cnn.py	/^from keras.layers import Dense, Dropout, Activation$/;"	kind:namespace	line:11
+Conv1D	../imdb_cnn.py	/^from keras.layers import Conv1D, GlobalMaxPooling1D$/;"	kind:namespace	line:13
+Conv2D	../mnist_cnn.py	/^from keras.layers import Conv2D, MaxPooling2D$/;"	kind:namespace	line:6
+Dense	../imdb_cnn.py	/^from keras.layers import Dense, Dropout, Activation$/;"	kind:namespace	line:11
+Dense	../mnist_cnn.py	/^from keras.layers import Dense, Dropout, Flatten$/;"	kind:namespace	line:5
+Dropout	../imdb_cnn.py	/^from keras.layers import Dense, Dropout, Activation$/;"	kind:namespace	line:11
+Dropout	../mnist_cnn.py	/^from keras.layers import Dense, Dropout, Flatten$/;"	kind:namespace	line:5
+Embedding	../imdb_cnn.py	/^from keras.layers import Embedding$/;"	kind:namespace	line:12
+Flatten	../mnist_cnn.py	/^from keras.layers import Dense, Dropout, Flatten$/;"	kind:namespace	line:5
+GlobalMaxPooling1D	../imdb_cnn.py	/^from keras.layers import Conv1D, GlobalMaxPooling1D$/;"	kind:namespace	line:13
+K	../mnist_cnn.py	/^from keras import backend as K$/;"	kind:namespace	line:7
+K	../mnist_cnn_predict.py	/^from keras import backend as K$/;"	kind:namespace	line:5
+MaxPooling2D	../mnist_cnn.py	/^from keras.layers import Conv2D, MaxPooling2D$/;"	kind:namespace	line:6
+Sequential	../imdb_cnn.py	/^from keras.models import Sequential$/;"	kind:namespace	line:10
+Sequential	../mnist_cnn.py	/^from keras.models import Sequential$/;"	kind:namespace	line:4
+activation	../mnist_cnn.py	/^                 activation='relu',$/;"	kind:variable	line:43
+batch_size	../imdb_cnn.py	/^batch_size = 32$/;"	kind:variable	line:19
+batch_size	../mnist_cnn.py	/^          batch_size=batch_size,$/;"	kind:variable	line:58
+batch_size	../mnist_cnn.py	/^batch_size = 128$/;"	kind:variable	line:9
+df	../datasets/sentiment140.py	/^    df = pd.read_csv(zip.open(filename), header=None)$/;"	kind:variable	line:13
+df	../datasets/sentiment140.py	/^df = df.sample(frac=1, randome_state=0)$/;"	kind:variable	line:20
+embedding_dims	../imdb_cnn.py	/^embedding_dims = 50$/;"	kind:variable	line:20
+epochs	../imdb_cnn.py	/^epochs = 2$/;"	kind:variable	line:24
+epochs	../mnist_cnn.py	/^          epochs=epochs,$/;"	kind:variable	line:59
+epochs	../mnist_cnn.py	/^epochs = 1$/;"	kind:variable	line:11
+filename	../datasets/sentiment140.py	/^    filename = zip.namelist()[0]$/;"	kind:variable	line:12
+filters	../imdb_cnn.py	/^filters = 250$/;"	kind:variable	line:21
+get_file	../datasets/sentiment140.py	/^from keras.utils.data_utils import get_file$/;"	kind:namespace	line:1
+hidden_dims	../imdb_cnn.py	/^hidden_dims = 250$/;"	kind:variable	line:23
+imdb	../imdb_cnn.py	/^from keras.datasets import imdb$/;"	kind:namespace	line:14
+imdb_cnn.py	../imdb_cnn.py	1;"	kind:file	line:1
+input_shape	../mnist_cnn.py	/^                 input_shape=input_shape))$/;"	kind:variable	line:44
+input_shape	../mnist_cnn.py	/^    input_shape = (1, img_rows, img_cols)$/;"	kind:variable	line:22
+input_shape	../mnist_cnn.py	/^    input_shape = (img_rows, img_cols, 1)$/;"	kind:variable	line:26
+input_shape	../mnist_cnn_predict.py	/^    input_shape = (1, img_rows, img_cols)$/;"	kind:variable	line:18
+input_shape	../mnist_cnn_predict.py	/^    input_shape = (img_rows, img_cols, 1)$/;"	kind:variable	line:22
+keras	../mnist_cnn.py	/^import keras$/;"	kind:namespace	line:2
+keras	../mnist_cnn_predict.py	/^import keras$/;"	kind:namespace	line:2
+kernel_size	../imdb_cnn.py	/^kernel_size = 3$/;"	kind:variable	line:22
+load_model	../mnist_cnn_predict.py	/^from keras.models import load_model$/;"	kind:namespace	line:4
+max_features	../imdb_cnn.py	/^max_features = 5000$/;"	kind:variable	line:17
+maxlen	../imdb_cnn.py	/^maxlen = 400$/;"	kind:variable	line:18
+metrics	../mnist_cnn.py	/^              metrics=['accuracy'])$/;"	kind:variable	line:55
+mnist	../mnist_cnn.py	/^from keras.datasets import mnist$/;"	kind:namespace	line:3
+mnist	../mnist_cnn_predict.py	/^from keras.datasets import mnist$/;"	kind:namespace	line:3
+mnist_cnn.py	../mnist_cnn.py	1;"	kind:file	line:1
+mnist_cnn_predict.py	../mnist_cnn_predict.py	1;"	kind:file	line:1
+model	../mnist_cnn.py	/^model = Sequential()$/;"	kind:variable	line:41
+model	../mnist_cnn_predict.py	/^model = load_model('mnist_cnn_model.h5')$/;"	kind:variable	line:11
+np	../datasets/sentiment140.py	/^import numpy as np$/;"	kind:namespace	line:3
+np	../mnist_cnn_predict.py	/^import numpy as np$/;"	kind:namespace	line:6
+num_classes	../mnist_cnn.py	/^num_classes = 10$/;"	kind:variable	line:10
+optimizer	../mnist_cnn.py	/^              optimizer=keras.optimizers.Adadelta(),$/;"	kind:variable	line:54
+origin	../datasets/sentiment140.py	/^                origin='http:\/\/cs.stanford.edu\/people\/alecmgo\/trainingandtestdata.zip',$/;"	kind:variable	line:7
+path	../datasets/sentiment140.py	/^path = get_file('sentiment.zip',$/;"	kind:variable	line:6
+pd	../datasets/sentiment140.py	/^import pandas as pd$/;"	kind:namespace	line:4
+print_function	../imdb_cnn.py	/^from __future__ import print_function$/;"	kind:namespace	line:7
+print_function	../mnist_cnn.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+print_function	../mnist_cnn_predict.py	/^from __future__ import print_function$/;"	kind:namespace	line:1
+score	../mnist_cnn.py	/^score = model.evaluate(x_test, y_test, verbose=0)$/;"	kind:variable	line:62
+sentiment140.py	../datasets/sentiment140.py	1;"	kind:file	line:1
+sequence	../imdb_cnn.py	/^from keras.preprocessing import sequence$/;"	kind:namespace	line:9
+validation_data	../mnist_cnn.py	/^          validation_data=(x_test, y_test))$/;"	kind:variable	line:61
+verbose	../mnist_cnn.py	/^          verbose=1,$/;"	kind:variable	line:60
+x	../mnist_cnn_predict.py	/^x = x_train[:10]  # 先頭10件で予測させる$/;"	kind:variable	line:26
+x_test	../imdb_cnn.py	/^x_test = sequence.pad_sequences(x_test, maxlen=maxlen)$/;"	kind:variable	line:33
+x_test	../mnist_cnn.py	/^    x_test = x_test.reshape(x_test.shape[0], 1, img_rows, img_cols)$/;"	kind:variable	line:21
+x_test	../mnist_cnn.py	/^    x_test = x_test.reshape(x_test.shape[0], img_rows, img_cols, 1)$/;"	kind:variable	line:25
+x_test	../mnist_cnn.py	/^x_test = x_test.astype('float32')$/;"	kind:variable	line:30
+x_test	../mnist_cnn_predict.py	/^    x_test = x_test.reshape(x_test.shape[0], 1, img_rows, img_cols)$/;"	kind:variable	line:17
+x_test	../mnist_cnn_predict.py	/^    x_test = x_test.reshape(x_test.shape[0], img_rows, img_cols, 1)$/;"	kind:variable	line:21
+x_train	../imdb_cnn.py	/^x_train = sequence.pad_sequences(x_train, maxlen=maxlen)$/;"	kind:variable	line:32
+x_train	../mnist_cnn.py	/^    x_train = x_train.reshape(x_train.shape[0], 1, img_rows, img_cols)$/;"	kind:variable	line:20
+x_train	../mnist_cnn.py	/^    x_train = x_train.reshape(x_train.shape[0], img_rows, img_cols, 1)$/;"	kind:variable	line:24
+x_train	../mnist_cnn.py	/^x_train = x_train.astype('float32')$/;"	kind:variable	line:29
+x_train	../mnist_cnn_predict.py	/^    x_train = x_train.reshape(x_train.shape[0], 1, img_rows, img_cols)$/;"	kind:variable	line:16
+x_train	../mnist_cnn_predict.py	/^    x_train = x_train.reshape(x_train.shape[0], img_rows, img_cols, 1)$/;"	kind:variable	line:20
+y	../mnist_cnn_predict.py	/^y = model.predict(x)$/;"	kind:variable	line:27
+y_classes	../mnist_cnn_predict.py	/^y_classes = [np.argmax(v, axis=None, out=None) for v in y]$/;"	kind:variable	line:32
+y_test	../mnist_cnn.py	/^y_test = keras.utils.to_categorical(y_test, num_classes)$/;"	kind:variable	line:39
+y_train	../mnist_cnn.py	/^y_train = keras.utils.to_categorical(y_train, num_classes)$/;"	kind:variable	line:38
+zipfile	../datasets/sentiment140.py	/^import zipfile$/;"	kind:namespace	line:2
